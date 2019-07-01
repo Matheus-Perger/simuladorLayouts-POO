@@ -29,7 +29,7 @@ public class Main {
 		Formatter<Radio> formataRadio = new RadioFormatter();
 		Display<Radio> radioDisplay = new RadioDisplay(radio, formataRadio);
 		
-		// Relogio
+		// Relógio
 		Relogio relogio = new Relogio(30, 02);
 		Formatter<Relogio> formataRelogio = new RelogioFormatter();
 		Display<Relogio> relogioDisplay = new RelogioDisplay(relogio, formataRelogio);
