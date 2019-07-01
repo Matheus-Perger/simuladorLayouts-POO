@@ -1,0 +1,14 @@
+package br.com.matheus.formatter;
+
+import br.com.matheus.entities.Formatter;
+
+public class CalendarioFormatter implements Formatter {
+
+	@Override
+	public String formatter(Object value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

@@ -1,0 +1,17 @@
+package br.com.matheus.app;
+
+import br.com.matheus.calendario.Calendario;
+import br.com.matheus.formatter.CalendarioFormatter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Calendario cal = new Calendario(10, 02, 2019);
+		CalendarioFormatter forma = new CalendarioFormatter();
+		forma.formatter(cal);
+		
+		cal.show();
+
+	}
+
+}

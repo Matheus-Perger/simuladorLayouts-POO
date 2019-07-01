@@ -1,0 +1,6 @@
+package br.com.matheus.entities;
+
+public interface Formatter {
+
+	public String formatter(T value);
+}

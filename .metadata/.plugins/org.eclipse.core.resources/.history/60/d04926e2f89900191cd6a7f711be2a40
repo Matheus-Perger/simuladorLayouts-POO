@@ -1,0 +1,11 @@
+package br.com.matheus.calendario;
+
+import br.com.matheus.display.Display;
+
+public class CalendarioDisplay extends Display {
+
+	@Override
+	public void show() {
+		System.out.println(dia + "/" + mes + "/" + ano);
+	}
+}

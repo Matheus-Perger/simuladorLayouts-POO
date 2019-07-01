@@ -1,0 +1,13 @@
+package br.com.matheus.formatter;
+
+import br.com.matheus.calendario.Calendario;
+
+public class CalendarioFormatter implements Formatter<Calendario> {
+
+	@Override
+	public String formatter(Calendario value) {
+		
+		return value.getDia() + "/" + value.getMes() + "/" + value.getAno();
+	}
+
+}

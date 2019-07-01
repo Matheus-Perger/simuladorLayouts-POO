@@ -1,0 +1,15 @@
+package br.com.matheus.calendario;
+
+import br.com.matheus.display.Display;
+import br.com.matheus.display.Formatter;
+
+public class CalendarioDisplay extends Display {
+
+	private Calendario cal;
+	private Formatter<Calendario> formata;
+	
+	@Override
+	public void show() {
+		System.out.println(formata.formatter(cal));
+	}
+}
